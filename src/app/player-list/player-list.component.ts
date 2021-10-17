@@ -20,7 +20,4 @@ export class PlayerListComponent implements OnInit {
   printDetail(player: Player) {
     this.selectedPlayer = player;
   }
-  printHonours(copas:honours) {
-    this.honoursList = honours;
-  }
 }

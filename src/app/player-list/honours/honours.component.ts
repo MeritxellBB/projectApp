@@ -1,4 +1,4 @@
-import { honours } from './../../models/honours';
+import { Honour, honours } from './../../models/honours';
 import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./honours.component.scss']
 })
 export class HonoursComponent implements OnInit {
-  @Input() copas!: honours;
+@Input() copas!: Honour[];
   
   constructor() { }
 

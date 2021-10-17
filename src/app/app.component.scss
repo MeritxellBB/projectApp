@@ -2,13 +2,20 @@
 
 * { margin:0; padding:0;}
 
+.body {
+    background: linear-gradient( #622E60, #343A76);
+}
+
 .navBar {
     background-color:#E5BB45;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
-    height: 70px;
+}
+
+.navBar img {
+    height: 60px;
 }
 
 .navTransicion {
@@ -29,12 +36,18 @@
     height: 70px;
 }
 
-.body {
-    background: linear-gradient( #622E60, #343A76);
-}
-
 .footBar{
     background-color:#E5BB45;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.footBar p {
+    justify-content: space-around;
+    text-align: left;
+}
+
+.footBar img {
+    width: 200px;
 }

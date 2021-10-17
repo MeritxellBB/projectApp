@@ -1,4 +1,7 @@
-<div>
-<p></p>
+<div class="copaContainer">
+  <div class="copa" *ngFor="let copa of copas">
+    <img src="{{ copa.img }}" alt="" />
+    <p>{{ copa.won }}</p>
+    <p>{{ copa.name }}</p>
+  </div>
 </div>
-

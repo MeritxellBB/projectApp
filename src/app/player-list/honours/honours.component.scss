@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.copaContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.copa {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;    
+}
+
+.copa img {
+    border: 2px solid #29283D;
+}
+
+.copa p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media (min-width: 1280px) {}

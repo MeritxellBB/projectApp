@@ -1,4 +1,4 @@
-export interface honours {
+export interface Honour {
     name: string;
     won: number;
     img: string;
@@ -6,17 +6,17 @@ export interface honours {
 
 export const honours = [
     {
-        name: "Liga",
+        name: "Ligas",
         won: 26,
         img:"/assets/liga.PNG", 
     },
     {
-        name: "Champions League",
+        name: "Champions Leagues",
         won: 5,
         img:"/assets/copaeuropa.PNG", 
     },
     {
-        name: "Copa del Rey",
+        name: "Copas del Rey",
         won: 31,
         img:"/assets/coparei.PNG", 
     },
@@ -26,7 +26,7 @@ export const honours = [
         img:"/assets/supercopaeuropa.PNG", 
     },
     {
-        name: "Supercopa de España",
+        name: "Supercopas de España",
         won: 13,
         img:"/assets/supercopaespaña.PNG", 
     },

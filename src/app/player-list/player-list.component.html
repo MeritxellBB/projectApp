@@ -1,20 +1,17 @@
 <div ngClass="boxPlayer">
-<div ngClass="boxDetail">
-<p>{{selectedPlayer.name}}</p>
-<p  ngClass="dorsal">{{selectedPlayer.dorsal}}</p>
-<p>{{selectedPlayer.position}}</p>
-</div>
-<div ngClass="boxPhoto">
-<img src="{{selectedPlayer.img}}" alt="">
-</div>
+  <div ngClass="boxDetail">
+    <p>{{ selectedPlayer.name }}</p>
+    <p ngClass="dorsal">{{ selectedPlayer.dorsal }}</p>
+    <p>{{ selectedPlayer.position }}</p>
+  </div>
+  <div ngClass="boxPhoto">
+    <img src="{{ selectedPlayer.img }}" alt="" />
+  </div>
 </div>
 <div ngClass="playerListContainer">
   <div ngClass="playerContainer" *ngFor="let player of playerList">
     <app-player (notify)="printDetail($event)" [jugador]="player"></app-player>
   </div>
 </div>
-<div>
-  <p>{{printHonours.name}}</p>
-</div>
-<app-honours> (notify)="printHonours($event)" [copas]="honours"</app-honours>
+<app-honours [copas]="honoursList"></app-honours>
 <app-stadium></app-stadium>
