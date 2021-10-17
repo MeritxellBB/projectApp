@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.stadiumContainer {
+    display: flex;
+    flex-grow: grow;
+    justify-content: center;
+    justify-content: space-around;
+    height: 150px;    
+}
+
+.stadiumContainer img {
+    border: 2px solid white;
+}
+
+.stadiumContainer img:hover {
+    transform: scale(1.7); 
+    cursor: pointer;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.buttonStadium {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   margin-bottom: 20px;
+}
